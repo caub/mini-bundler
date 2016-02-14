@@ -1,5 +1,5 @@
 (function () {
-    var require = /*! bundle compiled on Sun Feb 14 2016 23:56:19 GMT+0100 (Paris, Madrid) */
+    var require = /*! bundle compiled on Mon Feb 15 2016 00:22:17 GMT+0100 (Paris, Madrid) */
 (function () {
 	var require = window.require = (function () {
 		var ROOT = '/';
@@ -46,7 +46,7 @@ require.bind(MODULE__module));
         };
 		return globalRequire;
 	})();
-	require.register("./src\bar.js", function (module, exports, __dirname, require) {
+	require.register("./src/bar.js", function (module, exports, __dirname, require) {
 		var {random, floor} = Math;
 
 console.log('bar');
@@ -56,7 +56,7 @@ module.exports = function randomWord(){
 	return 'bar'+floor(50*random())
 };
 	});
-	require.register("./src\foo.js", function (module, exports, __dirname, require) {
+	require.register("./src/foo.js", function (module, exports, __dirname, require) {
 		var randBar = require('./bar.js');
 
 
@@ -64,10 +64,10 @@ module.exports = function(a){
 	return a + ' ___ ' + randBar();
 }
 	});
-	require.register("./src\index.js", function (module, exports, __dirname, require) {
+	require.register("./src/index.js", function (module, exports, __dirname, require) {
 		var foo = require('./foo.js');
 
-console.log(foo());
+console.log(foo('hm'));
 	});
     
 	require('./src/index.js');

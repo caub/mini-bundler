@@ -17,5 +17,5 @@ module.exports = function(a){
 },{"./bar.js":1}],3:[function(require,module,exports){
 var foo = require('./foo.js');
 
-console.log(foo());
+console.log(foo('hm'));
 },{"./foo.js":2}]},{},[3]);

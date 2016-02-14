@@ -1,3 +1,3 @@
-var foo = require('./src/foo.js');
+var foo = require('./foo.js');
 
 console.log(foo());

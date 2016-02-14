@@ -9,6 +9,7 @@
   "author": "crl",
   "license": "ISC",
   "dependencies": {
-    "requirify": "git+ssh://git@gist.github.com/571b316413c6d59370c2.git"
+    "requirify": "git+ssh://git@gist.github.com/571b316413c6d59370c2.git",
+    "mini-requirejs": "git+ssh://git@gist.github.com/6fbf685ff0deeeeaa5fe.git"
   }
 }

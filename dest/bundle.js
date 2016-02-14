@@ -1,5 +1,5 @@
 (function () {
-    var require = /*! bundle compiled on Sun Feb 14 2016 23:06:38 GMT+0100 (Paris, Madrid) */
+    var require = /*! bundle compiled on Sun Feb 14 2016 23:46:48 GMT+0100 (Paris, Madrid) */
 (function () {
 	var require = window.require = (function () {
 		var ROOT = '/';
@@ -65,7 +65,7 @@ module.exports = function(a){
 }
 	});
 	require.register("./src\index.js", function (module, exports, __dirname, require) {
-		var foo = require('./src/foo.js');
+		var foo = require('./foo.js');
 
 console.log(foo());
 	});
